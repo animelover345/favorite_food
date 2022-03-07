@@ -1,0 +1,32 @@
+.link{
+    color: aquamarine;
+    display: inline;
+    padding-top: 5 px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+}
+.link:hover{
+    background-color: cadetblue;
+}
+#picture{
+    width: auto;
+    height: 300px;
+    border-radius: 0%;
+    margin: 20px;
+}
+.food{
+    background: #148581;
+    background: linear-gradient( #00fff7, #148581 );
+    padding-top: 20px;
+}
+img{
+    transition: transform .2s;
+    border: 10px solid #AAAAAA;
+}
+img:hover{
+    transform: scale(0.9);
+}
+body{
+    text-align: center;
+}
